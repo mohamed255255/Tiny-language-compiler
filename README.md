@@ -1,6 +1,9 @@
 # Tiny-language-compiler 
   A compiler for TINY language in C++ that include scanner, parser, analyzer and code generator , which mimics what happens in an actual compiler 
-
+# Requirements:
+   1. Scanner which convert the code into tokens 
+   2. Parser which takes the output of  the scanner to generate syntax tree
+   3. Analyzer which generates symbol tabel and apply type checking 
 # Tiny-langaue-rules:
     .sequence of statements separated by ;
     .Comments {}
@@ -25,5 +28,5 @@
         write fact {output factorial}
       end
 
-# Output test case 1 : 
+# Output test case 1 which computes the factorial of x : 
 <img src="display.png">
