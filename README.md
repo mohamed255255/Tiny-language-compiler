@@ -15,15 +15,15 @@
     .no procedures - no declarations   
 
 # Test case 1 :
-  read x; {input an integer}
-  if 0<x then {compute only if x>=1}
-    fact:=1;
-    repeat
-      fact := fact * x;
-      x:=x-1
-    until x=0;
-    write fact {output factorial}
-  end
+      read x; {input an integer}
+      if 0<x then {compute only if x>=1}
+        fact:=1;
+        repeat
+          fact := fact * x;
+          x:=x-1
+        until x=0;
+        write fact {output factorial}
+      end
 
 # Output test case 1 : 
 <img src="display.png">
